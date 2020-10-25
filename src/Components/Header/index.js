@@ -35,11 +35,6 @@ class Header extends React.Component {
                     Gallery
                   </a>
                 </li>
-                <li className="mr-lg-2">
-                  <a href="#news" className="scroll">
-                    News
-                  </a>
-                </li>
                 <li>
                   <a href="#contact" className="scroll">
                     Contact Us
