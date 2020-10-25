@@ -21,7 +21,7 @@ class Section extends React.Component {
               <div className="col-md-4 about-aug about-aug1">
                 <h4>Farm Eggs</h4>
                 <p>
-                  FARM EGGS (GRADED MACHINE SORTED) We can deliver as best we
+                  Farm eggs (Graded Machine Sorted) We can deliver as best we
                   can. Can also pick up
                 </p>
                 <p className="mt-4">
