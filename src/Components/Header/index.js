@@ -56,8 +56,7 @@ class Header extends React.Component {
               <div className="style-banner">
                 <h1 className="text-white">Welcome to G-Eggs Poultry Farm</h1>
                 <p className="mt-5 text-white">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui{" "}
+                  Supply best and quality fresh eggs
                 </p>
                 <a
                   href="#about"
