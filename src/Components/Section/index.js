@@ -39,22 +39,15 @@ class Section extends React.Component {
                 <div className="augue_im1">
                   <img
                     src="images/image1.jpg"
-                    alt="news image"
+                    alt="egg image"
                     className="img-fluid"
                   />
                 </div>
                 <div className="augue_im2 mt-4 mb-4">
                   <img
                     src="images/image2.jpg"
-                    alt="news image"
+                    alt="egg image"
                     className="img-fluid"
-                  />
-                </div>
-                <div class="augue_im3">
-                  <img
-                    src="images/eggbg.jpg"
-                    alt="news image"
-                    class="img-fluid"
                   />
                 </div>
               </div>
@@ -62,21 +55,21 @@ class Section extends React.Component {
                 <div className="augue_im4">
                   <img
                     src="images/image4.jpg"
-                    alt="news image"
+                    alt="egg image"
                     className="img-fluid"
                   />
                 </div>
                 <div className="augue_im5 mt-4 mb-4">
                   <img
                     src="images/image3.jpg"
-                    alt="news image"
+                    alt="egg image"
                     className="img-fluid"
                   />
                 </div>
                 <div class="augue_im6">
                   <img
                     src="images/egg_size_card.jpg"
-                    alt="news image"
+                    alt="egg image"
                     class="img-fluid"
                   />
                 </div>
@@ -84,7 +77,7 @@ class Section extends React.Component {
             </div>
           </div>
         </section>
-        <section className="wedo py-5">
+        {/* <section className="wedo py-5">
           <div className="container py-lg-5">
             <div className="text-center">
               <h3 className="w3_head">
@@ -98,7 +91,7 @@ class Section extends React.Component {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     );
   }
