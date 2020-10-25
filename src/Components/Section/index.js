@@ -50,6 +50,13 @@ class Section extends React.Component {
                     className="img-fluid"
                   />
                 </div>
+                <div class="augue_im3">
+                  <img
+                    src="images/eggbg.jpg"
+                    alt="news image"
+                    class="img-fluid"
+                  />
+                </div>
               </div>
               <div className="col-md-4 about-aug about-aug3">
                 <div className="augue_im4">
@@ -64,6 +71,13 @@ class Section extends React.Component {
                     src="images/image3.jpg"
                     alt="news image"
                     className="img-fluid"
+                  />
+                </div>
+                <div class="augue_im6">
+                  <img
+                    src="images/egg_size_card.jpg"
+                    alt="news image"
+                    class="img-fluid"
                   />
                 </div>
               </div>

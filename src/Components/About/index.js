@@ -6,10 +6,10 @@ class About extends React.Component {
       <section className="wedo py-5" id="about">
         <div className="container py-lg-5">
           <div className="text-center">
-            <h2 className="w3_head">About G-Egg</h2>
+            <h2 className="w3_head">About G-Eggs</h2>
             <p className="main_p mt-4 mb-4 pt-2 text-center mx-auto">
               Established in 2020, G-Eggs is a family-owned business currently
-              located at Darasa Tanauan City Batangas.
+              located at Batangas City.
             </p>
 
             <p className="main_p mt-4 mb-4 pt-2 text-center mx-auto">

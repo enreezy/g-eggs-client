@@ -6,6 +6,7 @@ import Section from "./Section/";
 import News from "./News/";
 import Contact from "./Contact/";
 import Footer from "./Footer/";
+import Chat from "./Chat/";
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Service />
         <Section />
         <Contact />
+        <Chat />
         <Footer />
       </div>
     );
