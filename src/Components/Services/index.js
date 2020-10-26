@@ -34,7 +34,7 @@ class Service extends React.Component {
             </div>
             <div className="whsat_bt text-center mx-auto">
               <a
-                href="#features"
+                href="#gallery"
                 className="btn button-style mt-sm-5 mt-4 scroll"
               >
                 Learn More

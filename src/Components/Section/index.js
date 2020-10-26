@@ -29,7 +29,7 @@ class Section extends React.Component {
                   XL Jumbo
                 </p>
                 <a
-                  href="#news"
+                  href="#contact"
                   className="btn button-style mt-sm-5 mt-4 scroll"
                 >
                   Learn More
