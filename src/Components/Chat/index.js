@@ -1,17 +1,40 @@
 import React, { useEffect, useState } from "react";
 import { Widget, addResponseMessage, toggleMsgLoader } from "react-chat-widget";
 import axios from "axios";
-
+import oauth from "axios-oauth-client";
 import "react-chat-widget/lib/styles.css";
 
 function Chat() {
+  const [token, setToken] = useState("");
   useEffect(() => {
     addResponseMessage(
       "Welcome to G-Eggs how may I help you? Please ask your questions"
     );
+
+    if (!token) {
+      console.log("hello");
+      getAccessToken();
+    }
   }, []);
 
-  const handleNewUserMessage = (newMessage) => {
+  const getAccessToken = async () => {
+    const getAuthorizationCode = oauth.client(axios.create(), {
+      url: "https://accounts.google.com/o/oauth2/auth",
+      grant_type: "authorization_code",
+      client_id:
+        "417490624961-6mb2h9cbivnvo731fb5m0j624uaj8l0f.apps.googleusercontent.com",
+      client_secret: "EOoAGuBb9AYawpzONhWjbYbn",
+      username: "enriksabalvaro7@gmail.com",
+      password: "enrik123",
+      scope: "*",
+    });
+
+    const auth = await getAuthorizationCode();
+
+    console.log(auth, "auth");
+  };
+
+  const handleNewUserMessage = async (newMessage) => {
     console.log(`New message incoming! ${newMessage}`);
     // Now send the message throught the backend API
     toggleMsgLoader();
