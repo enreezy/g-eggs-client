@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Widget, addResponseMessage, toggleMsgLoader } from "react-chat-widget";
 import axios from "axios";
-import oauth from "axios-oauth-client";
 import "react-chat-widget/lib/styles.css";
 
 function Chat() {
