@@ -5,9 +5,7 @@ import "react-chat-widget/lib/styles.css";
 
 function Chat() {
   useEffect(() => {
-    addResponseMessage(
-      "Welcome to G-Eggs how may I help you? Please ask your questions"
-    );
+    addResponseMessage("Welcome to G-Eggs how may I help you?");
   }, []);
 
   const handleNewUserMessage = async (newMessage) => {
