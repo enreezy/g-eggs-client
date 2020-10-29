@@ -27,8 +27,11 @@ class Footer extends React.Component {
           </li>
         </ul>
         <p>
-          © 2020 G-Eggs. All rights reserved
-          {/* | Design by <a href="http://w3layouts.com"> W3layouts.</a> */}
+          © 2020 G-Eggs. All rights reserved | Design by{" "}
+          <a href="http://w3layouts.com"> W3layouts.</a> |{" "}
+          <a href="https://www.logodesign.net/image/hatched-egg-with-circle-around-it-5481ld">
+            Logo source Logodesign.net
+          </a>
         </p>
       </div>
     );
