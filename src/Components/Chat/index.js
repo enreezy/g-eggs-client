@@ -18,10 +18,7 @@ function Chat() {
     };
 
     axios
-      .post(
-        "http://geggsbackend-env.eba-hy8hkdzm.us-east-1.elasticbeanstalk.com/chat",
-        requestBody
-      )
+      .post("https://g-eggs-server.tech/chat", requestBody)
       .then((response) => {
         toggleMsgLoader();
         addResponseMessage(response.data);
