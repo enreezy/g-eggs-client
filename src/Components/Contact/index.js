@@ -95,7 +95,6 @@ class Contact extends React.Component {
               <input type="submit" value="Send Message" /> &nbsp;
               <input type="reset" value="Clear Form" />
               <div className="clearfix"> </div>
-              <ToastContainer />
             </form>
           </div>
         </div>
