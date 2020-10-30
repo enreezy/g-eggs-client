@@ -1,0 +1,20 @@
+.rcw-widget-container {
+  height: auto;
+  width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .conversation-container {
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0;
+  }
+}
+
+.rcw-widget-container .conversation-container {
+  width: 370px;
+  margin-bottom: 10px;
+}
+.rcw-widget-container .launcher {
+  margin-top: 0;
+}

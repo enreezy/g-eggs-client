@@ -98,6 +98,7 @@ class Contact extends React.Component {
             </form>
           </div>
         </div>
+        <ToastContainer />
       </section>
     );
   }

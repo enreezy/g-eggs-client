@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Widget, addResponseMessage, toggleMsgLoader } from "react-chat-widget";
 import axios from "axios";
 import "react-chat-widget/lib/styles.css";
+import "../../styles.css";
 
 function Chat() {
   useEffect(() => {
