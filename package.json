@@ -31,9 +31,11 @@
     "axios": "^0.21.0",
     "bootstrap": "^4.5.2",
     "react": "^16.13.1",
+    "react-autobind": "^1.0.6",
     "react-chat-widget": "^3.0.5",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
+    "react-toastify": "^6.0.9",
     "reactstrap": "^8.5.1"
   }
 }
