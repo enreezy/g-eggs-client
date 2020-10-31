@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
-import { Widget, addResponseMessage, toggleMsgLoader } from "react-chat-widget";
+import {
+  Widget,
+  addResponseMessage,
+  toggleMsgLoader,
+  toggleWidget,
+} from "react-chat-widget";
 import axios from "axios";
 import "react-chat-widget/lib/styles.css";
 import "../../styles.css";
@@ -7,6 +12,7 @@ import "../../styles.css";
 function Chat() {
   useEffect(() => {
     addResponseMessage("Welcome to G-Eggs how may I help you?");
+    toggleWidget();
   }, []);
 
   const handleNewUserMessage = async (newMessage) => {
