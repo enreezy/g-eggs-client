@@ -12,7 +12,9 @@ import "../../styles.css";
 function Chat() {
   useEffect(() => {
     addResponseMessage("Welcome to G-Eggs how may I help you?");
-    toggleWidget();
+    setTimeout(() => {
+      toggleWidget();
+    }, 8000);
   }, []);
 
   const handleNewUserMessage = async (newMessage) => {
