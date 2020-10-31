@@ -16,8 +16,8 @@ class Service extends React.Component {
               </p>
             </div>
             <div className="col-md-4 about-info about-info2">
-              <span className="fa fa-balance-scale"></span>
-              <h4>Sell</h4>
+              <span className="fa fa-cart-plus"></span>
+              <h4>Wholesale</h4>
               <div className="h4-underline"></div>
               <p>
                 The weight is right Always new and fresh DTI standard Size Our
@@ -27,8 +27,8 @@ class Service extends React.Component {
               </p>
             </div>
             <div className="col-md-4 about-info about-info3">
-              <span className="fa fa-cart-plus"></span>
-              <h4>Wholesale</h4>
+              <span className="fa fa-handshake-o"></span>
+              <h4>Deal</h4>
               <div className="h4-underline"></div>
               <p>You can still do business! We offer, Pocket price!</p>
             </div>

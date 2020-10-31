@@ -49,7 +49,7 @@ class Header extends React.Component {
           <div className="container-fluid">
             <div className="row">
               <div className="style-banner">
-                <h1 className="text-white">Welcome to G-Eggs Poultry Farm</h1>
+                <h1 className="text-white">Welcome to G-Eggs</h1>
                 <p className="mt-5 text-white">
                   Supply best and quality fresh eggs
                 </p>
