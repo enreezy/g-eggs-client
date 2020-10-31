@@ -4,9 +4,13 @@
 }
 
 @media screen and (max-width: 800px) {
+  .rcw-messages-container {
+    height: 300px;
+    max-height: 100%;
+  }
   .conversation-container {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     margin-bottom: 0;
   }
 }

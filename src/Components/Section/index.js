@@ -38,21 +38,21 @@ class Section extends React.Component {
               <div className="col-md-4 about-aug about-aug2">
                 <div className="augue_im1">
                   <img
-                    src="images/image1.jpg"
+                    src="images/egg1.jpg"
                     alt="egg image"
                     className="img-fluid"
                   />
                 </div>
                 <div className="augue_im2 mt-4 mb-4">
                   <img
-                    src="images/image2.jpg"
+                    src="images/egg2.jpg"
                     alt="egg image"
                     className="img-fluid"
                   />
                 </div>
                 <div class="augue_im3">
                   <img
-                    src="images/image7.jpg"
+                    src="images/egg3.jpg"
                     alt="egg image"
                     className="img-fluid"
                   />
@@ -61,21 +61,21 @@ class Section extends React.Component {
               <div className="col-md-4 about-aug about-aug3">
                 <div className="augue_im4">
                   <img
-                    src="images/image4.jpg"
+                    src="images/egg4.jpg"
                     alt="egg image"
                     className="img-fluid"
                   />
                 </div>
                 <div className="augue_im5 mt-4 mb-4">
                   <img
-                    src="images/image3.jpg"
+                    src="images/egg5.jpg"
                     alt="egg image"
                     className="img-fluid"
                   />
                 </div>
                 <div class="augue_im6">
                   <img
-                    src="images/image9.jpg"
+                    src="images/egg6.jpg"
                     alt="egg image"
                     class="img-fluid"
                   />
