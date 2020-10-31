@@ -31,6 +31,7 @@ class Contact extends React.Component {
     axios
       .post("https://g-eggs-server.tech/email", requestBody)
       .then((response) => {
+        console.log(response);
         if (response) {
           this.setState({
             email: "",
