@@ -11,7 +11,9 @@ import "../../styles.css";
 
 function Chat() {
   useEffect(() => {
-    addResponseMessage("Welcome to G-Eggs how may I help you?");
+    addResponseMessage(
+      "Hello! I'm a G-Eggs Chat Assistant! I can answer questions like price, location etc. How can I help you?"
+    );
     setTimeout(() => {
       toggleWidget();
     }, 8000);
