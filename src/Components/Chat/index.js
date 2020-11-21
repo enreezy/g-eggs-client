@@ -14,9 +14,9 @@ function Chat() {
     addResponseMessage(
       "Hello! I'm a G-Eggs Chat Assistant! I can answer questions like price, location etc. How can I help you?"
     );
-    setTimeout(() => {
-      toggleWidget();
-    }, 8000);
+    // setTimeout(() => {
+    //   toggleWidget();
+    // }, 8000);
   }, []);
 
   const handleNewUserMessage = async (newMessage) => {
@@ -38,12 +38,12 @@ function Chat() {
 
   return (
     <div className="App">
-      <Widget
+      {/* <Widget
         handleNewUserMessage={handleNewUserMessage}
         title="Welcome to G-Eggs"
         subtitle="G-Egg Chat Assistant"
         profileAvatar={"images/icon.png"}
-      />
+      /> */}
     </div>
   );
 }
