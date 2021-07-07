@@ -30,6 +30,7 @@
     "@fortawesome/react-fontawesome": "^0.1.2",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-autobind": "^1.0.6",
     "react-chat-widget": "^3.0.5",
