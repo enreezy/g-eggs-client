@@ -51,7 +51,7 @@ class Contact extends React.Component {
           <div className="text-center">
             <h3 className="w3_head">CONTACT US</h3>
             <p className="main_p mt-4 mb-4 pt-2 text-center mx-auto">
-              <i className="fa fa-phone" /> &nbsp; Mobile: 0939-743-3649
+              <i className="fa fa-phone" /> &nbsp; Mobile: 0939-713-3349
             </p>
             <p className="main_p mt-4 mb-4 pt-2 text-center mx-auto">
               <i className="fa fa-envelope" /> &nbsp;Email:
