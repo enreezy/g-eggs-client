@@ -1,5 +1,5 @@
 {
-  "name": "g-eggs",
+  "name": "g-eggs-client",
   "version": "1.0.0",
   "description": "G-Egg React Template",
   "main": "index.js",
@@ -30,6 +30,7 @@
     "@fortawesome/react-fontawesome": "^0.1.2",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.2",
+    "dotenv-webpack": "^7.0.3",
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-autobind": "^1.0.6",

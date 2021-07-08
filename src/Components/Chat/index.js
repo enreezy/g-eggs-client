@@ -29,7 +29,7 @@ function Chat() {
     };
 
     axios
-      .post("https://g-eggs-server.tech/chat", requestBody)
+      .post(`${process.env.SERVER_API}/chat`, requestBody)
       .then((response) => {
         toggleMsgLoader();
         addResponseMessage(response.data);
